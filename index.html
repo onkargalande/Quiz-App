@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto py-8">
+    <h1 class="text-3xl font-bold text-center mb-8">Quiz App</h1>
+    <div id="quiz-container" class="bg-white p-8 rounded-lg shadow-md">
+      <div id="progress-bar" class="mb-4">
+        <div id="progress" class="h-4 bg-blue-500 rounded"></div>
+      </div>
+      <div id="question" class="text-xl font-semibold mb-4"></div>
+      <div id="options" class="space-y-4"></div>
+      <div id="feedback" class="font-bold mb-4"></div>
+      <button id="next-btn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Next</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
